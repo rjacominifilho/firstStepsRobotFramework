@@ -3,8 +3,4 @@
 .html
 .xml
 
-# ignore folder log, Evidências
-
-/**/log
-/**/Evidences
-/**/results
+/Evidences
