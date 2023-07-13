@@ -32,3 +32,4 @@ And select the year 2022
 Then 2022 championship ranking is displayed
     Wait Until Page Contains    2022
     Capture Page Screenshot                 .\\TC01\\04-2022Championship.png
+    Close Browser
