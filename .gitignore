@@ -1,0 +1,10 @@
+# ignore all files with .html and .xml extension
+
+.html
+.xml
+
+# ignore folder log, Evidências
+
+/**/log
+/**/Evidências
+/**/results
