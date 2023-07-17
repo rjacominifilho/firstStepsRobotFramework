@@ -15,9 +15,6 @@ ${PC_01_CHOICE_YEAR}      //li[@role='option'][contains(.,'2022')]
 
 *** Keywords ***
 
-Given sports page is open
-    
-
 Search for "Brasileiro"
     Input Text                             ${TC01_SEARCH_FIELD}        ${TC01_SEARCH_WORD}
     Wait Until Page Contains Element       ${TC01_INSERTED_TEXT}       10
