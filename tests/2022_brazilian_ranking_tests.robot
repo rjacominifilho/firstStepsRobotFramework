@@ -9,8 +9,8 @@ Test Teardown     Close Browser
 *** Test Cases ***
 
 Test Case 01 - Open 2022 Brazilian Championship Ranking
-    The user is on the sports page
-    Search for "Brasileiro"
-    Choose "Serie A" option
-    Select 2022 year
-    2022 championship ranking is shown 
+    Given The user is on the sports page
+    When Search for "Brasileiro"
+    And Choose "Serie A" option
+    And Select 2022 year
+    Then 2022 championship ranking is shown 
