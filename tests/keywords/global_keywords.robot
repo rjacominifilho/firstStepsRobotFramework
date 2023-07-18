@@ -4,13 +4,12 @@ Library    SeleniumLibrary
 
 *** Variables ***
 
-##########TABELA BRASILEIRO##############
-
 ${BROWSER}                chrome
+${BASE_URL}               http://google.com.br
 
 *** Keywords ***
 
 Browser is open
-    Open Browser                          ${BROWSER}            options=add_experimental_option("detach", True)
+    Open Browser                 ${BASE_URL}     ${BROWSER}    options=add_experimental_option("detach", True)
     Maximize Browser Window
     
