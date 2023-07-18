@@ -1,7 +1,6 @@
 *** Settings ***
 
 Resource   ./page_objects/2022_brazilian_Ranking.robot
-Resource   ./keywords/global_keywords.robot
 
 Test Setup        Browser is open
 Test Teardown     Close Browser
