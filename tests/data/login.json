@@ -1,0 +1,10 @@
+{
+    "correctUser":{
+        "user": "Marcos Paulo",
+        "password": "teste123"
+    },
+    "incorrectUser":{
+        "user": "Emanuel Aguiar",
+        "password": "manel123"
+    }
+}
