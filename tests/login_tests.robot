@@ -13,4 +13,4 @@ Login with correct user and password
     [Tags]    login
     Given The login page is open
     When Submit login with correct data
-    #Then The secret page is shown
+    Then The secret page is shown
