@@ -1,10 +1,10 @@
 {
     "correctUser":{
-        "user": "Marcos Antonio",
+        "user": "Marcos Paulo",
         "password": "teste123"
     },
     "incorrectUser":{
-        "user": "João Jairo",
-        "password": "jair123"
+        "user": "Emanuel Aguiar",
+        "password": "manel123"
     }
 }
